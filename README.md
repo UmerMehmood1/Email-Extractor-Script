@@ -19,7 +19,7 @@ This Python script extracts email addresses from a specified webpage using Selen
 2. **Install required packages:**
 
    ```bash
-   pip install pandas selenium undetected-chromedriver
+   pip install pandas selenium undetected-chromedriver webdriver-manager
 3. **Download ChromeDriver:**
 
    - Download the ChromeDriver that matches your Chrome version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
