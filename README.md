@@ -30,7 +30,7 @@ This Python script extracts email addresses from a specified webpage using Selen
 1. **Run the script:**
 
    ```bash
-   python email_extractor.py```
+   python email_extractor.py
 2. **Enter the URL:**
 
    The script will prompt you to enter the URL from which you want to extract emails.
@@ -75,4 +75,4 @@ Main function that coordinates the entire email extraction process.
 ## Example
 
 ```bash
-Enter URL to Extract Emails: https://example.com```
+Enter URL to Extract Emails: https://example.com
