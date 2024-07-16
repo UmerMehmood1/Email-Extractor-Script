@@ -100,7 +100,7 @@ def main(url):
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-blink-features=AutomationControlled')
     
-    driver = uc.Chrome(options=options)
+    driver = uc.Chrome(driver_executable_path=ChromeDriverManager().install(), options=options)
     
     try:
         proxies = fetch_free_proxies(driver)
